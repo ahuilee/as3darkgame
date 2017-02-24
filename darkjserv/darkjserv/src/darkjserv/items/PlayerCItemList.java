@@ -5,8 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 
 import darkjserv.CItemFactory;
-import darkjserv.GameTemplateEnums;
-import darkjserv.monsters.DropItemFactory;
 import darkjserv.net.AddAttrResult;
 import darkjserv.net.GamePlayer;
 import darkjserv.storages.StorageFactory;

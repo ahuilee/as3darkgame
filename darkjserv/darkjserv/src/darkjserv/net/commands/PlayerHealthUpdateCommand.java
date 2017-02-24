@@ -1,8 +1,6 @@
 package darkjserv.net.commands;
 
 import java.io.ByteArrayOutputStream;
-import java.io.DataOutputStream;
-
 import darkjserv.net.CommandCode;
 import darkjserv.net.DataWriter;
 import darkjserv.net.ICommand;
@@ -32,6 +30,7 @@ public class PlayerHealthUpdateCommand  implements ICommand
 	public byte[] getCommandBytes() throws Exception
 	{
 		ByteArrayOutputStream stream = new ByteArrayOutputStream();
+		@SuppressWarnings("resource")
 		DataWriter w = new DataWriter(stream);	
 	
 		w.writeUInt24(curHp);

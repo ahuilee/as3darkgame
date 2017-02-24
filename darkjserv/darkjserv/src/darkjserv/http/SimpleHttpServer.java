@@ -35,6 +35,8 @@ public class SimpleHttpServer
 		{
 			Socket sock = _servSock.accept();
 			
+			System.out.println(String.format("Http Server accept...%s", sock));
+			
 			Connection conn = new Connection(sock, this);
 			workQueue.put(conn);
 		}
@@ -91,7 +93,7 @@ public class SimpleHttpServer
 			{
 				String header = text.substring(0, headerEnd);
 				
-				//System.out.println(String.format("request %s", header));
+				System.out.println(String.format("request %s", header));
 				
 				String[] lines = header.split("\r\n");
 				

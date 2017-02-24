@@ -4,9 +4,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.util.List;
 
-
-
-import darkjserv.ISyncDataNode;
 import darkjserv.net.CommandCode;
 import darkjserv.net.ICommand;
 import darkjserv.net.ICommandCallback;

@@ -38,6 +38,7 @@ public class SkillFactory
 		public byte[] makeShortcutItemBytes() throws Exception
 		{
 			ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+			@SuppressWarnings("resource")
 			DataWriter w = new DataWriter(outputStream);
 			
 			w.writeByte(0x02);

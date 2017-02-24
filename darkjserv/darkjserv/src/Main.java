@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
-import java.util.HashMap;
 
 import darkjserv.MapFactory;
 import darkjserv.MonsterFactory;

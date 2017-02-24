@@ -1,9 +1,6 @@
 package darkjserv.commandhandlers;
 
 
-import java.util.List;
-
-import darkjserv.IShortcutItem;
 import darkjserv.net.AnswerSuccessResponse;
 import darkjserv.net.Connection;
 import darkjserv.net.DataReader;

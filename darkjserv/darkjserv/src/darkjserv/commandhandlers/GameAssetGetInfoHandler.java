@@ -1,25 +1,10 @@
 package darkjserv.commandhandlers;
 
 
-import java.awt.Point;
-import java.io.DataInputStream;
 import java.util.ArrayList;
-import java.util.List;
-
-import darkjserv.AssetNPCLoadItem;
-import darkjserv.GameAssetEnums;
 import darkjserv.GameAssetFactory;
-import darkjserv.GameTemplateEnums;
-import darkjserv.IAnimationSyncSet;
 import darkjserv.IAssetLoadItem;
-import darkjserv.IGameObj;
-import darkjserv.ISyncDataNode;
-import darkjserv.Utils;
-import darkjserv.maps.IMapData;
 import darkjserv.net.*;
-import darkjserv.storages.StorageFactory;
-import darkjserv.storages.UserAccountData;
-import darkjserv.syncs.AnimationSyncSetDead;
 
 public class GameAssetGetInfoHandler 
 {
@@ -34,8 +19,7 @@ public class GameAssetGetInfoHandler
 	
 	
 	public void handle(int ask, DataReader rd) throws Exception
-	{
-		GamePlayer player = conn.player;
+	{	
 		
 		GameAssetFactory assetFactory = GameAssetFactory.getInstance();
 		

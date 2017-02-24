@@ -3,8 +3,6 @@ package darkjserv.commandhandlers;
 
 import java.io.DataInputStream;
 
-
-import darkjserv.net.AddAttrResult;
 import darkjserv.net.AnswerSuccessResponse;
 import darkjserv.net.Connection;
 import darkjserv.net.PlayerStatusInfo;

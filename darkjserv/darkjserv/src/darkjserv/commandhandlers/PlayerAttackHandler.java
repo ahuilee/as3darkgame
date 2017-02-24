@@ -11,7 +11,6 @@ import darkjserv.IGameObj;
 import darkjserv.IInteractiveDelegate;
 import darkjserv.InteractiveCodes;
 import darkjserv.net.*;
-import darkjserv.net.commands.PlayerLevelUpdateCommand;
 import darkjserv.syncs.AnimationSyncSetAnimation;
 import darkjserv.syncs.SyncAnimation;
 

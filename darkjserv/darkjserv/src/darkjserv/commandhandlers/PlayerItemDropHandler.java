@@ -3,10 +3,8 @@ package darkjserv.commandhandlers;
 
 import java.util.List;
 
-import darkjserv.CItemFactory;
 import darkjserv.Factory;
 import darkjserv.Utils;
-import darkjserv.items.CItemEnums;
 import darkjserv.items.CItemGameObjWrap;
 import darkjserv.items.ICItem;
 import darkjserv.net.*;

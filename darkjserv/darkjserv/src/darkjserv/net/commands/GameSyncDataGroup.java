@@ -3,7 +3,6 @@ package darkjserv.net.commands;
 import java.util.ArrayList;
 import java.util.List;
 
-import darkjserv.IGameObj;
 import darkjserv.ISyncDataNode;
 
 public class GameSyncDataGroup 

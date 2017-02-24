@@ -3,12 +3,9 @@ package darkjserv.commandhandlers;
 
 import java.io.DataInputStream;
 import java.util.ArrayList;
-import java.util.List;
-
 import darkjserv.IAnimationSyncSet;
 import darkjserv.IGameObj;
 import darkjserv.ISyncDataNode;
-import darkjserv.items.CItemGameObjWrap;
 import darkjserv.net.*;
 import darkjserv.syncs.AnimationSyncSetDead;
 

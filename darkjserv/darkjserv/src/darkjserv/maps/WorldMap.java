@@ -2,19 +2,12 @@ package darkjserv.maps;
 
 import java.awt.Point;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
 import darkjserv.Factory;
 import darkjserv.GameAssetEnums;
-import darkjserv.IGameMonster;
 import darkjserv.IGameObj;
 import darkjserv.Utils;
-import darkjserv.monsters.IMonsterBorn;
-import darkjserv.monsters.IMonsterDelegate;
-import darkjserv.monsters.MonsterCreator;
 import darkjserv.monsters.MonsterEnums;
-import darkjserv.net.MapChunk;
 import darkjserv.npcs.SimpleGroceryMan;
 
 public class WorldMap extends MapDataBase
@@ -63,7 +56,7 @@ public class WorldMap extends MapDataBase
 		
 		
 		//§ø²ø
-		MapChunkHomeGroup centerGroup = new MapChunkHomeGroup();
+		//MapChunkHomeGroup centerGroup = new MapChunkHomeGroup();
 		
 		Point center00 = new Point(2048, 2048);
 		

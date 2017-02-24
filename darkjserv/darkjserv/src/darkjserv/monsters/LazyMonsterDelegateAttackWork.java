@@ -4,13 +4,10 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 import darkjserv.IGameCharacter;
 import darkjserv.IGameMonster;
-import darkjserv.Utils;
 import darkjserv.monsters.LazyMonsterDelegate.WalkToState;
-import darkjserv.net.GamePlayer;
 
 
 public class LazyMonsterDelegateAttackWork 

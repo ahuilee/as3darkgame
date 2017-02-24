@@ -5,7 +5,6 @@ import java.util.List;
 
 import darkjserv.GameEnums;
 import darkjserv.IAnimationSyncSet;
-import darkjserv.GameTemplateEnums;
 import darkjserv.IGameMonster;
 import darkjserv.IInteractiveDelegate;
 import darkjserv.InteractiveCodes;

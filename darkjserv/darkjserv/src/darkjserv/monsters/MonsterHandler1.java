@@ -3,16 +3,12 @@ package darkjserv.monsters;
 
 import java.util.ArrayList;
 import java.util.List;
-
-
 import darkjserv.Factory;
 import darkjserv.IGameMonster;
 import darkjserv.IGameObj;
 import darkjserv.MapFactory;
 import darkjserv.MonsterFactory;
-import darkjserv.Utils;
 import darkjserv.maps.IMapData;
-import darkjserv.monsters.*;
 import darkjserv.net.GamePlayer;
 import darkjserv.syncs.SyncCharPosition;
 

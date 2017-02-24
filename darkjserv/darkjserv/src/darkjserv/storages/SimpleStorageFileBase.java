@@ -5,12 +5,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.RandomAccessFile;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map.Entry;
@@ -294,6 +291,7 @@ public class SimpleStorageFileBase
 		SchemaPage schema = getSchemaPageOrCreate();
 		
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
+		@SuppressWarnings("resource")
 		DataWriter w = new DataWriter(out);
 		
 		w.writeInt(schema.getNodeByKey.size());
@@ -528,6 +526,7 @@ public class SimpleStorageFileBase
 			
 			
 			
+			@SuppressWarnings("resource")
 			DataReader rd = new DataReader(in);
 			
 	

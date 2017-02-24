@@ -1,10 +1,7 @@
 package darkjserv.net.commands;
 
 import java.io.ByteArrayOutputStream;
-import java.io.DataOutputStream;
-
 import darkjserv.net.CommandCode;
-import darkjserv.net.DataWriter;
 import darkjserv.net.ICommand;
 import darkjserv.net.ICommandCallback;
 
@@ -29,9 +26,7 @@ public class PlayerDeadCommand  implements ICommand
 
 	public byte[] getCommandBytes() throws Exception
 	{
-		ByteArrayOutputStream stream = new ByteArrayOutputStream();
-		DataWriter w = new DataWriter(stream);	
-	
+		ByteArrayOutputStream stream = new ByteArrayOutputStream();	
 		
 		return stream.toByteArray();
 	}

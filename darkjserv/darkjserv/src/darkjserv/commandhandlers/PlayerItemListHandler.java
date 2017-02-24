@@ -3,7 +3,6 @@ package darkjserv.commandhandlers;
 import java.io.DataInputStream;
 import java.util.List;
 
-import darkjserv.CItemFactory;
 import darkjserv.items.CItemEnums;
 import darkjserv.items.ICItem;
 import darkjserv.net.*;

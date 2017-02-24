@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import darkjserv.Factory;
 import darkjserv.IGameMonster;
 import darkjserv.MapFactory;
 import darkjserv.Utils;

@@ -2,17 +2,13 @@ package darkjserv.maps;
 
 import java.awt.Point;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
-import darkjserv.Factory;
 import darkjserv.GameAssetEnums;
 import darkjserv.IGameObj;
 import darkjserv.MapFactory;
 import darkjserv.Utils;
 import darkjserv.monsters.MonsterEnums;
-import darkjserv.net.MapChunk;
-import darkjserv.npcs.SimpleGroceryMan;
 
 public class Map02 extends MapDataBase
 {

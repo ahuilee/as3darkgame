@@ -2,13 +2,8 @@ package darkjserv.storages;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
-
 import darkjserv.CSkillEnums;
-import darkjserv.items.CItemAttrList;
 import darkjserv.items.CItemEnums;
 import darkjserv.items.ICItem;
 import darkjserv.items.SimpleEquipment;
@@ -47,6 +42,7 @@ public class UserCharacterInfo
 	private byte[] makeCharInfoData() throws Exception
 	{
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
+		@SuppressWarnings("resource")
 		StorageDataWriter w = new StorageDataWriter(out);
 		
 		w.writeInt(charId);
@@ -75,6 +71,7 @@ public class UserCharacterInfo
 	private byte[] makeItemListData() throws Exception
 	{	
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
+		@SuppressWarnings("resource")
 		StorageDataWriter w = new StorageDataWriter(out);
 		
 		int itemCount = 0;
@@ -105,6 +102,7 @@ public class UserCharacterInfo
 	private byte[] packItemBytes(ICItem item ) throws Exception
 	{
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
+		@SuppressWarnings("resource")
 		StorageDataWriter w = new StorageDataWriter(out);
 		
 		w.writeInt(item.getItemId());	
@@ -183,6 +181,7 @@ public class UserCharacterInfo
 	private static HashMap<Integer, ICItem> _unpackCharItemList(byte[] data) throws Exception
 	{
 		ByteArrayInputStream in = new ByteArrayInputStream(data);
+		@SuppressWarnings("resource")
 		StorageDataReader rd = new StorageDataReader(in);
 		
 		HashMap<Integer, ICItem> list = new HashMap<Integer, ICItem>();
@@ -212,6 +211,7 @@ public class UserCharacterInfo
 	{
 		
 		ByteArrayInputStream in = new ByteArrayInputStream(data);
+		@SuppressWarnings("resource")
 		StorageDataReader rd = new StorageDataReader(in);
 		
 		info.charId = rd.readInt();

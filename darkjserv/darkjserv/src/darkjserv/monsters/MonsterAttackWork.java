@@ -9,16 +9,12 @@ import darkjserv.GameAnimationEnums;
 import darkjserv.GameLogic;
 import darkjserv.IGameCharacter;
 import darkjserv.IGameMonster;
-import darkjserv.IGameObj;
 import darkjserv.IInteractiveDelegate;
-import darkjserv.ISyncDataNode;
 import darkjserv.IWork;
 import darkjserv.net.GamePlayer;
-import darkjserv.net.commands.PlayerDeadCommand;
-import darkjserv.net.commands.PlayerHealthUpdateCommand;
 import darkjserv.syncs.AnimationSyncSetAnimation;
 import darkjserv.syncs.SyncAnimation;
-import darkjserv.syncs.SyncObjDead;
+
 
 public class MonsterAttackWork implements IWork
 {

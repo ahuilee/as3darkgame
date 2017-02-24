@@ -6,7 +6,6 @@ import java.util.HashMap;
 import java.util.List;
 
 import darkjserv.items.CItemGameObjWrap;
-import darkjserv.items.ICItem;
 import darkjserv.magics.MagicBuffFactory;
 import darkjserv.net.Connection;
 import darkjserv.net.GamePlayer;

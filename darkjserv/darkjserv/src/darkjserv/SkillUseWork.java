@@ -8,7 +8,6 @@ import darkjserv.magics.ProtectCoverMagicBuff;
 import darkjserv.magics.WeaponFocusMagicBuff;
 import darkjserv.net.GamePlayer;
 import darkjserv.net.ICommand;
-import darkjserv.net.commands.PlayerHealthUpdateCommand;
 import darkjserv.net.commands.SkillEffectPlayCommand;
 import darkjserv.net.commands.SkillEffectPlayFollowCommand;
 import darkjserv.syncs.AnimationSyncSetAnimation;

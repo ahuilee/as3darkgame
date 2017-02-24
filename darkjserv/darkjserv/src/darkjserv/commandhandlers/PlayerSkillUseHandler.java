@@ -34,7 +34,8 @@ public class PlayerSkillUseHandler
 		}
 		
 		int skillId = rd.readInt24();
-		long targetObjId = rd.readLong();
+		//long targetObjId = 
+		rd.readLong();
 		int targetX = rd.readInt();
 		int targetY = rd.readInt();
 		byte dir2 = rd.readByte();

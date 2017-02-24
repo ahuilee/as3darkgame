@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map.Entry;
-import java.util.Queue;
 import java.util.concurrent.TimeoutException;
 
 import darkjserv.GameAnimationEnums;
@@ -18,7 +17,6 @@ import darkjserv.net.commands.GameSyncDataGroup;
 import darkjserv.syncs.ISyncTimeNode;
 import darkjserv.syncs.SyncAnimation;
 import darkjserv.syncs.SyncInfoTypes;
-import darkjserv.syncs.SyncObjWalkTo;
 
 public class SyncNodeQueue
 {

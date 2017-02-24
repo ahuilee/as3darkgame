@@ -1,8 +1,6 @@
 package darkjserv.net.commands;
 
 import java.io.ByteArrayOutputStream;
-import java.io.DataOutputStream;
-
 import darkjserv.net.CommandCode;
 import darkjserv.net.ICommand;
 import darkjserv.net.ICommandCallback;

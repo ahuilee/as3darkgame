@@ -3,7 +3,6 @@ package darkjserv.commandhandlers;
 import java.io.DataInputStream;
 import java.util.ArrayList;
 
-import darkjserv.GameTemplateEnums;
 import darkjserv.items.ShopItem;
 import darkjserv.net.*;
 
